@@ -1,0 +1,42 @@
+<!-- <div style="text-align: center;">
+<h1 >
+  this is {{title}}
+</h1>
+
+<div class="app-test"></div>
+<div>
+  <img src="\assets\images\1573709.jpg" alt="wallpaper1">
+</div>
+<div>
+  <app-democomponent></app-democomponent>
+</div>
+</div> -->
+<div >
+<table border="10" class="table table-striped">
+  <div>
+  <input [(ngModel)]="num1" type="text" name="num1" placeholder="Enter 1st number" />
+  </div>
+<div>
+  <br>
+  <input [(ngModel)]="num2" type="text" name="num2" placeholder="Enter 2nd number" />
+</div>
+<div>
+  <br><ul>
+  <li> <button (click)="add()" >Addition</button></li>
+  <li><button (click)="sub()">Subtract</button></li>
+  <li><button (click)="multiply()">Multiply</button></li>
+  <li><button (click)="divide()">Division</button></li>
+  <li><button (click)="exponent()">Exponent</button></li>
+</ul>
+  <br>
+  
+</div>
+  <br>
+
+  <h1>= {{res}}</h1>
+  <div>
+  <button (click)="clear()">clear</button>
+  </div>
+</table>
+</div>
+<!-- <app-democomponent></app-democomponent> -->
