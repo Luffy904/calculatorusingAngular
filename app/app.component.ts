@@ -2,13 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  /*template: `<h1>Hello {{myvar}} </h1>
-  <h2>{{2+2}}</h2>
-  <br>
-  <h1>{{method1()}}</h1>
-  <app-democomponent></app-democomponent>
-  `
-  */
+
  templateUrl:'./app.component.html'
   ,
   styleUrls: ['./app.component.css']
